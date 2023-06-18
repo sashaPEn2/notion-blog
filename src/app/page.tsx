@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Welcome | Jihoo Kim',
+  title: 'Добро пожаловать | Александр Невдах',
 };
 
 export default function HomePage() {

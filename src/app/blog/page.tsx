@@ -5,8 +5,8 @@ import { getAllPostsFromNotion } from '@/services/posts';
 import { toUniqueArray } from '@/utils/to-unique-array';
 
 export const metadata = {
-  title: 'Blog',
-  description: 'All posts are created by notion ai.',
+  title: 'Новости',
+  description: 'Все буклеты Александра Невдаха, учащегося 10 класса Столинской государственной гимназии',
 };
 
 export default async function BlogPage() {

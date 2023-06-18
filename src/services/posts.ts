@@ -42,6 +42,7 @@ export async function getAllPostsFromNotion() {
         categories,
         // Fix 403 error for images.
         // https://github.com/NotionX/react-notion-x/issues/211
+        cover: mapImageUrl(cover, block[pageId].value) || '',
         date,
         published,
         lastEditedAt,
